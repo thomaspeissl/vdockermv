@@ -22,3 +22,7 @@ Error message:
 `os.mv` panics only if working with Docker volumes.
 
 Executing the Linux `mv` command inside the Docker container with the same arguments as the `os.mv()` works.
+
+## Workaround
+
+Use `os.cp` and `os.rm`.
