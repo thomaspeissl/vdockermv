@@ -6,7 +6,7 @@ This repository demonstrates it and will be included in the upstream issue repor
 ## Usage
 Clone this repository.
 
-Running normal this works:
+Without docker this works:
 ```bash
 v run .
 ```
@@ -19,3 +19,6 @@ docker-compose up --build
 Error message:
 `failed to rename /app/files/1.txt to /app/moved/moved.txt`
 
+`os.mv` panics only if working with Docker volumes.
+
+Executing the Linux `mv` command inside the Docker container with the same arguments as the `os.mv()` works.
