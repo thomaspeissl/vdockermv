@@ -1,7 +1,8 @@
 # vdockermv
 
 The `os.mv()` function of V 0.3.2 does not work with Docker volumes.
-This repository demonstrates it and will be included in the upstream issue report.
+This repository demonstrates it and is linked in the upstream issue report.
+https://github.com/vlang/v/issues/16985
 
 ## Usage
 Clone this repository.
